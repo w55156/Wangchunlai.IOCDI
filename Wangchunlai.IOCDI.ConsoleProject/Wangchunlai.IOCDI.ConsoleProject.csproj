@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wangchunlai.IOCDI.BLL\Wangchunlai.IOCDI.BLL.csproj" />
+    <ProjectReference Include="..\Wangchunlai.IOCDI.DAL\Wangchunlai.IOCDI.DAL.csproj" />
+    <ProjectReference Include="..\Wangchunlai.IOCDI.Framework\Wangchunlai.IOCDI.Framework.csproj" />
+    <ProjectReference Include="..\Wangchunlai.IOCDI.IBLL\Wangchunlai.IOCDI.IBLL.csproj" />
+    <ProjectReference Include="..\Wangchunlai.IOCDI.IDAL\Wangchunlai.IOCDI.IDAL.csproj" />
+    <ProjectReference Include="..\Wangchunlai.IOCDI.IService\Wangchunlai.IOCDI.IService.csproj" />
+    <ProjectReference Include="..\Wangchunlai.IOCDI.Service\Wangchunlai.IOCDI.Service.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wangchunlai.IOCDI.Framework\Wangchunlai.IOCDI.Framework.csproj" />
+    <ProjectReference Include="..\Wangchunlai.IOCDI.IBLL\Wangchunlai.IOCDI.IBLL.csproj" />
+    <ProjectReference Include="..\Wangchunlai.IOCDI.IDAL\Wangchunlai.IOCDI.IDAL.csproj" />
+  </ItemGroup>
+
+</Project>
